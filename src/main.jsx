@@ -11,12 +11,18 @@ import Statistics from './Components/Statistics/Statistics';
 import Blog from './Components/Blog/Blog';
 import AppliedJobs from './Components/Applied-Jobs/AppliedJobs';
 import Header from './Components/Header/Header';
+import Banner from './Components/Banner/Banner';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Header></Header>,
+    element: <Home></Home>,
     children : [
+      {
+        path : '/',
+        element : <Banner></Banner>,
+        loader : () => fetch('Job-List.json')
+      },
       {
         path : '/statistics',
         element : <Statistics></Statistics>

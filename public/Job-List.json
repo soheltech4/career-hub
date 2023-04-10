@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "company_logo": "./assets/Icons/accounts 1.png",
+      "company_name": "Financial Co",
+      "jobs_available": 524
+    },
+    {
+      "id": 2,
+      "company_logo": "./assets/Icons/business 1.png",
+      "company_name": "Investment Group LLC",
+      "jobs_available": 782
+    },
+    {
+      "id": 3,
+      "company_logo": "./assets/Icons/social-media 1.png",
+      "company_name": "Banking Corp",
+      "jobs_available": 327
+    },
+    {
+      "id": 4,
+      "company_logo": "./assets/Icons/chip 1.png",
+      "company_name": "Accounting Inc",
+      "jobs_available": 442
+    }
+  ]
