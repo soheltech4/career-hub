@@ -1,0 +1,110 @@
+[
+    {
+      "id": 1,
+      "companyLogo": "./assets/All Images/google-1-1 1.png",
+      "jobTitle": "Web Developer",
+      "companyName": "ABC Inc.",
+      "remoteOrOnsite": "Remote",
+      "location": "Any",
+      "fulltimeOrParttime": "Full-time",
+      "salary": "$80,000 - $100,000",
+      "jobDescription": "We are looking for an experienced web developer to join our team...",
+      "jobResponsibility": "Develop and maintain web applications...",
+      "educationalRequirements": "Bachelor's degree in Computer Science or equivalent experience",
+      "experiences": "5+ years of experience in web development",
+      "contactInformation": {
+        "phone": "555-555-1234",
+        "email": "jobs@abcinc.com"
+      }
+    },
+    {
+      "id": 2,
+      "companyLogo": "./assets/All Images/netflix-4 1.png",
+      "jobTitle": "Software Engineer",
+      "companyName": "XYZ Corp.",
+      "remoteOrOnsite": "Onsite",
+      "location": "New York, NY",
+      "fulltimeOrParttime": "Full-time",
+      "salary": "$100,000 - $120,000",
+      "jobDescription": "We are seeking a talented software engineer to join our team...",
+      "jobResponsibility": "Design and develop software solutions...",
+      "educationalRequirements": "Bachelor's degree in Computer Science or equivalent experience",
+      "experiences": "3+ years of experience in software development",
+      "contactInformation": {
+        "phone": "555-555-5678",
+        "email": "jobs@xyzcorp.com"
+      }
+    },
+    {
+      "id": 3,
+      "companyLogo": "./assets/All Images/tesla-9 1.png",
+      "jobTitle": "Marketing Specialist",
+      "companyName": "123 Marketing",
+      "remoteOrOnsite": "Remote",
+      "location": "Any",
+      "fulltimeOrParttime": "Part-time",
+      "salary": "$25 - $30 per hour",
+      "jobDescription": "We are looking for a marketing specialist to help us with our marketing efforts...",
+      "jobResponsibility": "Develop and execute marketing campaigns...",
+      "educationalRequirements": "Bachelor's degree in Marketing or equivalent experience",
+      "experiences": "2+ years of experience in marketing",
+      "contactInformation": {
+        "phone": "555-555-9012",
+        "email": "jobs@123marketing.com"
+      }
+    },
+    {
+      "id": 4,
+      "companyLogo": "./assets/All Images/Group 10021.png",
+      "jobTitle": "UI/UX Designer",
+      "companyName": "Design Co.",
+      "remoteOrOnsite": "Onsite",
+      "location": "Los Angeles, CA",
+      "fulltimeOrParttime": "Full-time",
+      "salary": "$90,000 - $110,000",
+      "jobDescription": "We are looking for a talented UI/UX designer to join our team...",
+      "jobResponsibility": "Design and create user interfaces...",
+      "educationalRequirements": "Bachelor's degree in Design or equivalent experience",
+      "experiences": "3+ years of experience in UI/UX design",
+      "contactInformation": {
+        "phone": "555-555-3456",
+        "email": "jobs@designco.com"
+      }
+    },
+    {
+      "id": 5,
+      "companyLogo": "./assets/All Images/Group 10021.png",
+      "jobTitle": "Data Scientist",
+      "companyName": "Data Analytics Inc.",
+      "remoteOrOnsite": "Remote",
+      "location": "Any",
+      "fulltimeOrParttime": "Full-time",
+      "salary": "$120,000 - $140,000",
+      "jobDescription": "We are seeking a data scientist to work on cutting-edge data analytics projects...",
+      "jobResponsibility": "Analyze and interpret complex data sets...",
+      "educationalRequirements": "Master's degree in Data Science, Computer Science or related field",
+      "experiences": "5+ years of experience in data science or related field",
+      "contactInformation": {
+        "phone": "555-555-7890",
+        "email": "jobs@dataanalyticsinc.com"
+      }
+    },
+    {
+      "id": 6,
+      "companyLogo": "./assets/All Images/google-1-1 1.png",
+      "jobTitle": "Sales Manager",
+      "companyName": "Salesforce Inc.",
+      "remoteOrOnsite": "Onsite",
+      "location": "San Francisco, CA",
+      "fulltimeOrParttime": "Full-time",
+      "salary": "$150,000 - $180,000",
+      "jobDescription": "We are looking for a sales manager to lead our sales team...",
+      "jobResponsibility": "Develop and implement sales strategies...",
+      "educationalRequirements": "Bachelor's degree in Business Administration or related field",
+      "experiences": "10+ years of experience in sales with 5+ years in management",
+      "contactInformation": {
+        "phone": "555-555-1234",
+        "email": "jobs@salesforceinc.com"
+      }
+    }
+]
