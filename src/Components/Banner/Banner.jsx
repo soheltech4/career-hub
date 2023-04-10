@@ -14,12 +14,9 @@ const Banner = () => {
         .then(data => setList(data))
     },
     [])
-
     const handleClick = () => {
-        setShowAll(!showAll);
+        setShowAll(true);
     };
-
-    console.log(showAll)
 
     return (
         <div className='container mx-auto'>
@@ -47,15 +44,22 @@ const Banner = () => {
             <p className='text-2xl mt-5 text-center mb-10 p-5'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 <div className='md:grid grid-cols-2 gap-x-5 container mx-auto items-center md:gap-10 gap-y-16 mb-10 p-3'>
                     {
-                            features.map(feature => <Featuredjobs key={feature.id} feature={feature}></Featuredjobs>)
+                            features.slice(0, showAll ? 6 : 4).map(feature => <Featuredjobs key={feature.id} feature={feature}></Featuredjobs>)
                     }
                 </div>
             </div>
-            <div className='flex items-center justify-center mb-5'>
-                <button onClick={handleClick} className='text-xl text-center mt-5 bg-blue-400 rounded text-white font-semibold p-2 hover:bg-blue-500'>Show More</button>
+            {
+                !showAll && (
+                    <div className='flex items-center justify-center mb-5'>
+                <button onClick={handleClick} className={`text-xl text-center mt-5 bg-blue-400 rounded text-white font-semibold p-2 hover:bg-blue-500`}>Show More</button>
             </div>
+                )
+            }
         </div>
         );
 };
 
 export default Banner;
+
+
+
