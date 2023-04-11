@@ -9,7 +9,7 @@ const Banner = () => {
     const features = useLoaderData()
     const [list, setList] = useState([])
     useEffect(()=>{
-        fetch('Job-List.json')
+        fetch('/Job-List.json')
         .then(res => res.json())
         .then(data => setList(data))
     },
