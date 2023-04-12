@@ -7,14 +7,16 @@ const AppliedJobs = () => {
     const Data = useLoaderData()
 
     const AppliedJob = getAppliedJob()
-  
+
     let AllAppliedJob = []
     for (const id in AppliedJob){
     const FoundJob = Data.find(Job => Job.id == id)
     if(FoundJob){
         AllAppliedJob.push(FoundJob)
         }
-    }  
+    }
+
+    console.log(Data)
 
     return (
         <div>

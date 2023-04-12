@@ -17,11 +17,8 @@ const Jobdetails = () => {
       },[])
 
     const HandleApplied = () => {
-        console.log(id)
         AddtoDb(id)
     }
-
-    console.log(id)
 
     
     return (
