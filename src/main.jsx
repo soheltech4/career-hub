@@ -31,15 +31,16 @@ const router = createBrowserRouter([
         element : <Statistics></Statistics>
       },
       {
-        path : 'appliedjobs',
-        element : <AppliedJobs></AppliedJobs>
+        path : 'appliedJobs',
+        element : <AppliedJobs></AppliedJobs>,
+        loader : () => fetch('/fetatures.json')
       },
       {
         path : 'blog',
         element : <Blog></Blog>
       },
       {
-        path : 'viewdetails/:id',
+        path : 'viewdetails/:ids',
         element : <Jobdetails></Jobdetails>,
       }
     ]

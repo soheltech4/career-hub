@@ -73,9 +73,9 @@
     },
     {
       "id": 5,
-      "companyLogo": "./assets/All Images/Group 10021.png",
+      "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Daraz_Logo.png",
       "jobTitle": "Data Scientist",
-      "companyName": "Data Analytics Inc.",
+      "companyName": "Daraz",
       "remoteOrOnsite": "Remote",
       "location": "Any",
       "fulltimeOrParttime": "Full-time",
@@ -91,9 +91,9 @@
     },
     {
       "id": 6,
-      "companyLogo": "./assets/All Images/google-1-1 1.png",
+      "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png",
       "jobTitle": "Sales Manager",
-      "companyName": "Salesforce Inc.",
+      "companyName": "Amazon",
       "remoteOrOnsite": "Onsite",
       "location": "San Francisco, CA",
       "fulltimeOrParttime": "Full-time",
